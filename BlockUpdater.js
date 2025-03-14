@@ -4,7 +4,7 @@ import { CachingFetcher } from "./essential.js";
 
 export default class BlockUpdater {
 	static LATEST_VERSION = 18168865; // 1.21.60.33 (1.21.61)
-	static #UPGRADE_SCHEMA_URL = "https://raw.githubusercontent.com/SuperLlama88888/BedrockBlockUpgradeSchema";
+	static #UPGRADE_SCHEMA_URL = " https://gh.llkk.cc/https://raw.githubusercontent.com/SuperLlama88888/BedrockBlockUpgradeSchema";
 	static #UPGRADE_SCHEMA_VERSION = "5.1.0+bedrock-1.21.60"; // specifically, the tag name
 	
 	#fetcher;
