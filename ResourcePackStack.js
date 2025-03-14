@@ -94,7 +94,7 @@ export default class ResourcePackStack {
 }
 
 export class VanillaDataFetcher extends CachingFetcher {
-	static #VANILLA_RESOURCES_LINK = "/gp/Mojang/bedrock-samples"; // No / at the end
+	static #VANILLA_RESOURCES_LINK = "https://gh.llkk.cc/https://raw.githubusercontent.com/Mojang/bedrock-samples"; // No / at the end
 	
 	/**
 	 * Creates a vanilla data fetcher to fetch data from the Mojang/bedrock-samples repository.
